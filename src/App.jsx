@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import data from './data';
-import SingleQuestion from './components/Question';
+import React from 'react';
+import Questions from './components/Questions';
 function App() {
-  return <h2 style={{ color: 'white' }}>accordion project setup</h2>;
+  return (
+    <main>
+      <div className="container">
+        <h3>FAQ about login</h3>
+        <Questions />
+      </div>
+    </main>
+  );
 }
 
 export default App;
