@@ -4,7 +4,7 @@ function App() {
   return (
     <main>
       <div className="container">
-        <h3>FAQ about login</h3>
+        <h2>FAQ about login</h2>
         <Questions />
       </div>
     </main>
