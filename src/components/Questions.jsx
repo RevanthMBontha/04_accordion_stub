@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SingleQuestion from './Question';
 
 const url =
-  'https://api-for-basic-projects.netlify.app/accordion_project/accordion_data.json';
+  'https://api-for-basic-projects.netlify.app/accordion-project/accordion_data.json';
 
 const Questions = () => {
   const [isLoading, setIsLoading] = useState(true);
